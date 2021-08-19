@@ -42,6 +42,6 @@ if __name__=='__main__':
     surface = loadStl('/home/bi3ri/tube_ws/src/tubular_toolpath_creator/data/coil_out.stl')
 
     centerline.Surface = surface
-    centerline.SeedSelector = True
+    # centerline.SeedSelector = True
     centerline.SeedSelectorName = 'openprofiles'
     centerline.Execute()
